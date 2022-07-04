@@ -1,0 +1,1831 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96699157291b42e4895778ed736b0cdf, type: 3}
+  m_Name: ethan_start
+  m_EditorClassIdentifier: 
+  statementLayers:
+  - statements:
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 1
+      ConnectedIndexOut: 0
+      StatementContent: 'Player : ooh my G....., what is going on  and how did i get
+        here.'
+      rect:
+        serializedVersion: 2
+        x: 906.25
+        y: 651.0417
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 896.25
+        y: 729.0417
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 1456.25
+        y: 794.0417
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1206.25
+        y: 731.0417
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 896.25
+        y: 671.0417
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1000605
+      ConnectedOutId: 100001
+      Id: 100001
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 8300000, guid: 33cb68f1fe255e94da48381678596d09, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 563
+        height: 22
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 6
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 0
+      ConnectedIndexIn: 0
+      ConnectedIndexOut: 0
+      StatementContent: 'Playre: i think i should talk the red guy in front.'
+      rect:
+        serializedVersion: 2
+        x: 1543.5485
+        y: 672.5808
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 1533.5485
+        y: 750.5808
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 2093.5483
+        y: 815.5808
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1843.5485
+        y: 752.5808
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 1533.5485
+        y: 692.5808
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 100001
+      ConnectedOutId: 100001
+      Id: 1000605
+      ConnectedImgIndex: 1
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 8300000, guid: f492384dd0218274383b1b42f4d2a884, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 412
+        height: 22
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 5
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    characterPictures:
+    - ConnectedIndex: 0
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 656.625
+        y: 717.9584
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 856.625
+        y: 782.4584
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 100001
+    - ConnectedIndex: 1
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 1296.613
+        y: 543.5842
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 1496.613
+        y: 608.0842
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1000605
+    stmtRect:
+      serializedVersion: 2
+      x: 650
+      y: 500
+      width: 150
+      height: 150
+    HasBuild: 1
+    layerName: start
+    ID: 1003281
+    Active: 1
+    Play: 0
+    isplaying: 0
+    panelsize: {x: 1024, y: 150}
+    reset: 0
+  - statements:
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 1
+      ConnectedIndexOut: 0
+      StatementContent: 
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 650
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 890
+        y: 728
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 1450
+        y: 793
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 890
+        y: 670
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 0
+      ConnectedInId: 1008272
+      ConnectedOutId: 100001
+      Id: 100001
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 0}
+      Statement_rect:
+        serializedVersion: 2
+        x: 330.06
+        y: 301.36
+        width: 0
+        height: 29.89746
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 0
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 0
+      ConnectedIndexIn: 0
+      ConnectedIndexOut: 0
+      StatementContent: 'Controls
+
+
+        Foward > arrow up or w,
+
+
+        Backward > arrow down or s,
+
+
+        Left Side > left arrow or a.
+
+
+        Right Side > right arrow or d.
+
+
+        Jump > space.
+
+
+        walk > left shift '
+      rect:
+        serializedVersion: 2
+        x: 1499.999
+        y: 647.917
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 1489.999
+        y: 725.917
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 2049.999
+        y: 790.917
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1799.999
+        y: 727.917
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 1489.999
+        y: 667.917
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 0
+      ConnectedInId: 100001
+      ConnectedOutId: 100001
+      Id: 1008272
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 0}
+      Statement_rect:
+        serializedVersion: 2
+        x: 330.06
+        y: 301.36
+        width: 332
+        height: 390
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 0.3
+      decisions:
+      - content: Continue
+        rect:
+          serializedVersion: 2
+          x: 2164.5823
+          y: 637.292
+          width: 350
+          height: 80
+        OutRect:
+          serializedVersion: 2
+          x: 2514.5823
+          y: 665.292
+          width: 10
+          height: 25
+        display_rect:
+          serializedVersion: 2
+          x: 442.6
+          y: 735.06
+          width: 112
+          height: 40
+        connected_id: 0
+        spacing: 170
+        updatedspacing: 0
+        HasBuild: 1
+        HasSpaced: 0
+        ID: 1007415EV
+        IsconnectedIn: 0
+        IsconnectedOut: 0
+        ConnectedIndexIn: 0
+        ConnectedIndexOut: 0
+      Isdecision: 1
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    characterPictures: []
+    stmtRect:
+      serializedVersion: 2
+      x: 885.4159
+      y: 504.1667
+      width: 150
+      height: 150
+    HasBuild: 1
+    layerName: Control info
+    ID: 1006187
+    Active: 1
+    Play: 0
+    isplaying: 0
+    panelsize: {x: 800, y: 300}
+    reset: 0
+  - statements:
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 1
+      ConnectedIndexOut: 0
+      StatementContent: 'Player: finally...., hey bro my name is ethan,can you explain
+        to me what the hell is going on here?'
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 650
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 890
+        y: 728
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 1450
+        y: 793
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 890
+        y: 670
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1002048
+      ConnectedOutId: 100001
+      Id: 100001
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Player
+      audio: {fileID: 8300000, guid: 4c0e3f020b51e644d82b0c4f0dc731af, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 727
+        height: 19
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 7
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 2
+      ConnectedIndexOut: 0
+      StatementContent: 'Jacob: hi Ethan, i am Jocob.I have no idea too, i just woke
+        up and i found myself in this dumb.'
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 658
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 1512
+        y: 736
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 2072
+        y: 801
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1822
+        y: 738
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 1512
+        y: 678
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1007188
+      ConnectedOutId: 100001
+      Id: 1002048
+      ConnectedImgIndex: 1
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Red_Ethan
+      audio: {fileID: 8300000, guid: bc156458e8209f34f865113f0bf1b51e, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 702
+        height: 19
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 12
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 3
+      ConnectedIndexOut: 1
+      StatementContent: 'Player: Oh okay, jacob that was really helpful'
+      rect:
+        serializedVersion: 2
+        x: 2124.481
+        y: 774.2078
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 2114.481
+        y: 852.2078
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 2674.481
+        y: 917.2078
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 2424.481
+        y: 854.2078
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 2114.481
+        y: 794.2078
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1004884
+      ConnectedOutId: 1002048
+      Id: 1007188
+      ConnectedImgIndex: 2
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Player
+      audio: {fileID: 8300000, guid: 63902b31256612c40b8e362db5680623, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 339
+        height: 19
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 4
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 4
+      ConnectedIndexOut: 2
+      StatementContent: 'Jacob:alright ethan, if you want answers explore around this
+        pit of shit, who knows you might
+
+        find something important.'
+      rect:
+        serializedVersion: 2
+        x: 2734.751
+        y: 779.1675
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 2724.751
+        y: 857.1675
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 3284.751
+        y: 922.1675
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 3034.751
+        y: 859.1675
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 2724.751
+        y: 799.1675
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1007857
+      ConnectedOutId: 1007188
+      Id: 1004884
+      ConnectedImgIndex: 3
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Red_Ethan
+      audio: {fileID: 8300000, guid: 61f3629eb53918845a51eda73020b355, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 694
+        height: 39
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 12
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 5
+      ConnectedIndexOut: 3
+      StatementContent: 'Player: Good Idea.'
+      rect:
+        serializedVersion: 2
+        x: 3323.6414
+        y: 1053.3359
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 3313.6414
+        y: 1131.3359
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 3873.6414
+        y: 1196.3359
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 3623.6414
+        y: 1133.3359
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 3313.6414
+        y: 1073.3359
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1000020
+      ConnectedOutId: 1004884
+      Id: 1007857
+      ConnectedImgIndex: 4
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Player
+      audio: {fileID: 8300000, guid: 7c5f98b98883608459b3499d730a9d09, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 140
+        height: 19
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 2
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 0
+      ConnectedIndexIn: 0
+      ConnectedIndexOut: 4
+      StatementContent: 'Player: i think i should start with those round balls and
+        the slope.'
+      rect:
+        serializedVersion: 2
+        x: 3929.5864
+        y: 1077.381
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 3919.5864
+        y: 1155.381
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 4479.5864
+        y: 1220.381
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 4229.5864
+        y: 1157.381
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 3919.5864
+        y: 1097.381
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 100001
+      ConnectedOutId: 1007857
+      Id: 1000020
+      ConnectedImgIndex: 5
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Player
+      audio: {fileID: 8300000, guid: 738ffca1653f5e24692bc07c9394734d, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 483
+        height: 19
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 3.5
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    characterPictures:
+    - ConnectedIndex: 0
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 742
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 854
+        y: 806.5
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 100001
+    - ConnectedIndex: 1
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: ac92fefc32a718042b9f9fcd92cf70d5, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 1279.5916
+        y: 522.449
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 1479.5916
+        y: 586.949
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1002048
+    - ConnectedIndex: 2
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 1878.3723
+        y: 575.31824
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 2078.3723
+        y: 639.81824
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1007188
+    - ConnectedIndex: 3
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: ac92fefc32a718042b9f9fcd92cf70d5, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 2494.4734
+        y: 633.33417
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 2694.4734
+        y: 697.83417
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1004884
+    - ConnectedIndex: 4
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 3081.3145
+        y: 1083.4918
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 3281.3145
+        y: 1147.9918
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1007857
+    - ConnectedIndex: 5
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 3665.3013
+        y: 945.2379
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 3865.3013
+        y: 1009.7379
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1000020
+    stmtRect:
+      serializedVersion: 2
+      x: 1085
+      y: 505
+      width: 150
+      height: 150
+    HasBuild: 1
+    layerName: meet red ethan
+    ID: 1002032
+    Active: 1
+    Play: 0
+    isplaying: 0
+    panelsize: {x: 1024, y: 150}
+    reset: 0
+  - statements:
+    - IsconnectedIn: 1
+      IsconnectedOut: 0
+      ConnectedIndexIn: 0
+      ConnectedIndexOut: 0
+      StatementContent: 'Player: hmmmm..., i wonder whats behind this large ball'
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 650
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 890
+        y: 728
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 1450
+        y: 793
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 890
+        y: 670
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 100001
+      ConnectedOutId: 100001
+      Id: 100001
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 8300000, guid: d411031e22274f24487c4d7988297c3c, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 498
+        height: 22
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 0
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 5
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    characterPictures:
+    - ConnectedIndex: 0
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 642.39044
+        y: 727.1736
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 842.39044
+        y: 791.6736
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 100001
+    stmtRect:
+      serializedVersion: 2
+      x: 1328.2603
+      y: 505.43475
+      width: 150
+      height: 150
+    HasBuild: 1
+    layerName: big ball
+    ID: 1007386
+    Active: 1
+    Play: 0
+    isplaying: 0
+    panelsize: {x: 1024, y: 150}
+    reset: 0
+  - statements:
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 1
+      ConnectedIndexOut: 0
+      StatementContent: 'Player: Alright, another strange ball object.'
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 650
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 890
+        y: 728
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 1450
+        y: 793
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 890
+        y: 670
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1008320
+      ConnectedOutId: 100001
+      Id: 100001
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 8300000, guid: 49179cdc31e405f41a585266c548bcd8, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 378
+        height: 22
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 0
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 4
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 0
+      ConnectedIndexIn: 0
+      ConnectedIndexOut: 0
+      StatementContent: 'Player: i should continue searching.'
+      rect:
+        serializedVersion: 2
+        x: 1543.4775
+        y: 726.0879
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 1533.4775
+        y: 804.0879
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 2093.4775
+        y: 869.0879
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1843.4775
+        y: 806.0879
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 1533.4775
+        y: 746.0879
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 100001
+      ConnectedOutId: 100001
+      Id: 1008320
+      ConnectedImgIndex: 1
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 8300000, guid: 3747d9a8185dc9d4b91e6c9bb0331577, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 315
+        height: 22
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 0
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 3
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    characterPictures:
+    - ConnectedIndex: 0
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 647.826
+        y: 715.2189
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 847.826
+        y: 779.7189
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 100001
+    - ConnectedIndex: 1
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 1308.6953
+        y: 477.1739
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 1508.6953
+        y: 541.6739
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1008320
+    stmtRect:
+      serializedVersion: 2
+      x: 648.91296
+      y: 698.9134
+      width: 150
+      height: 150
+    HasBuild: 1
+    layerName: small_ball_1
+    ID: 1002456
+    Active: 1
+    Play: 0
+    isplaying: 0
+    panelsize: {x: 1024, y: 150}
+    reset: 0
+  - statements:
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 1
+      ConnectedIndexOut: 0
+      StatementContent: 'Player: wooow, that is a high slope, i think i should climb
+        it.'
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 650
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 890
+        y: 728
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 1450
+        y: 793
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 890
+        y: 670
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 1008052
+      ConnectedOutId: 100001
+      Id: 100001
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 8300000, guid: b28e23c9e059ba0488454425462382c5, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 442
+        height: 19
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 4
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 0
+      ConnectedIndexIn: 0
+      ConnectedIndexOut: 0
+      StatementContent: Player:men i wonder what it would feel like up there.
+      rect:
+        serializedVersion: 2
+        x: 1494.4485
+        y: 647.79596
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 1484.4485
+        y: 725.79596
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 2044.4485
+        y: 790.79596
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1794.4485
+        y: 727.79596
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 1484.4485
+        y: 667.79596
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 1
+      ConnectedInId: 100001
+      ConnectedOutId: 100001
+      Id: 1008052
+      ConnectedImgIndex: 1
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 8300000, guid: 9fc3d92b19609aa4cb55674dece324ff, type: 3}
+      Statement_rect:
+        serializedVersion: 2
+        x: 50
+        y: 668
+        width: 389
+        height: 19
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 0
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 4
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    characterPictures:
+    - ConnectedIndex: 0
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 652.0404
+        y: 745.9184
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 852.0404
+        y: 810.4184
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 100001
+    - ConnectedIndex: 1
+      Connected: 1
+      Size: {x: 64, y: 64}
+      texture: {fileID: 2800000, guid: 7d6d7576b5b3fb945b2b994b989b5898, type: 3}
+      center: 0
+      left: 1
+      right: 0
+      rect:
+        serializedVersion: 2
+        x: 1237.7552
+        y: 483.67346
+        width: 200
+        height: 150
+      dropdowntext: Left
+      dropdown: 0
+      outrect:
+        serializedVersion: 2
+        x: 1437.7552
+        y: 548.17346
+        width: 10
+        height: 25
+      HasBuild: 1
+      connected_id: 1008052
+    stmtRect:
+      serializedVersion: 2
+      x: 891
+      y: 699.1111
+      width: 150
+      height: 150
+    HasBuild: 1
+    layerName: slope
+    ID: 1000600
+    Active: 1
+    Play: 0
+    isplaying: 0
+    panelsize: {x: 1024, y: 150}
+    reset: 0
+  - statements:
+    - IsconnectedIn: 1
+      IsconnectedOut: 1
+      ConnectedIndexIn: 1
+      ConnectedIndexOut: 0
+      StatementContent: 
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 650
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 890
+        y: 728
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 1450
+        y: 793
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1200
+        y: 730
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 890
+        y: 670
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 0
+      ConnectedInId: 1002804
+      ConnectedOutId: 100001
+      Id: 100001
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 0}
+      Statement_rect:
+        serializedVersion: 2
+        x: 419.3
+        y: 346.2
+        width: 0
+        height: 22.998047
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 84.5
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 0
+      decisions: []
+      Isdecision: 0
+      DecisionAmount: 3
+      BySelection: 0
+      closemsgbox: 0
+    - IsconnectedIn: 1
+      IsconnectedOut: 0
+      ConnectedIndexIn: 0
+      ConnectedIndexOut: 0
+      StatementContent: Do you want to quit ?
+      rect:
+        serializedVersion: 2
+        x: 1547.3865
+        y: 774.0593
+        width: 250
+        height: 180
+      InRect:
+        serializedVersion: 2
+        x: 1537.3865
+        y: 852.0593
+        width: 10
+        height: 25
+      OutRect:
+        serializedVersion: 2
+        x: 2097.3865
+        y: 917.0593
+        width: 10
+        height: 25
+      Side_Rect:
+        serializedVersion: 2
+        x: 1847.3865
+        y: 854.0593
+        width: 250
+        height: 150
+      img_rect:
+        serializedVersion: 2
+        x: 1537.3865
+        y: 794.0593
+        width: 10
+        height: 25
+      connectedtodecision: 0
+      connetedtoimg: 0
+      ConnectedInId: 100001
+      ConnectedOutId: 100001
+      Id: 1002804
+      ConnectedImgIndex: 0
+      ButtonText: 
+      dropdown: 0
+      anchordropdown: 0
+      anchortext: TopLeft
+      buttontexture: {fileID: 0}
+      Size: {x: 0, y: 0}
+      align_dropdown: 0
+      align_dropdown_text: Horizontal
+      horizontal: 1
+      vertical: 0
+      CharacterTagName: Untagged
+      audio: {fileID: 0}
+      Statement_rect:
+        serializedVersion: 2
+        x: 419.3
+        y: 346.2
+        width: 189
+        height: 22
+      stmt_posx: 0
+      stmt_posy: 0
+      des_spacing: 84.5
+      enable_scroll: 1
+      TopLeft: 1
+      TopRight: 0
+      DownLeft: 0
+      DownRight: 0
+      desparentindex: 0
+      HasBuild: 1
+      Click: 0
+      Timer: 0.3
+      decisions:
+      - content: YES
+        rect:
+          serializedVersion: 2
+          x: 2327.9421
+          y: 783.226
+          width: 350
+          height: 80
+        OutRect:
+          serializedVersion: 2
+          x: 2677.9421
+          y: 811.226
+          width: 10
+          height: 25
+        display_rect:
+          serializedVersion: 2
+          x: 424.09998
+          y: 394.87003
+          width: 49
+          height: 25
+        connected_id: 0
+        spacing: 170
+        updatedspacing: 0
+        HasBuild: 1
+        HasSpaced: 0
+        ID: 1004542GV
+        IsconnectedIn: 0
+        IsconnectedOut: 0
+        ConnectedIndexIn: 0
+        ConnectedIndexOut: 0
+      - content: NO
+        rect:
+          serializedVersion: 2
+          x: 2329.331
+          y: 1117.9481
+          width: 350
+          height: 80
+        OutRect:
+          serializedVersion: 2
+          x: 2679.331
+          y: 1145.9481
+          width: 10
+          height: 25
+        display_rect:
+          serializedVersion: 2
+          x: 557.6
+          y: 394.87003
+          width: 40
+          height: 25
+        connected_id: 0
+        spacing: 170
+        updatedspacing: 0
+        HasBuild: 1
+        HasSpaced: 0
+        ID: 1000605CX
+        IsconnectedIn: 0
+        IsconnectedOut: 0
+        ConnectedIndexIn: 0
+        ConnectedIndexOut: 0
+      Isdecision: 1
+      DecisionAmount: 3
+      BySelection: 1
+      closemsgbox: 1
+    characterPictures: []
+    stmtRect:
+      serializedVersion: 2
+      x: 1121.9231
+      y: 699.19226
+      width: 150
+      height: 150
+    HasBuild: 1
+    layerName: quit message
+    ID: 1004845
+    Active: 1
+    Play: 0
+    isplaying: 0
+    panelsize: {x: 400, y: 150}
+    reset: 0

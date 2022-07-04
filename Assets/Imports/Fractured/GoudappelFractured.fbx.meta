@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: a3bd69e670a448246b244f9fb7e1a84e
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      74: 1380446170614478152
+    second: Goudappel|AppleRotation
+  - first:
+      74: -6605084681603790476
+    second: Goudappel|GoudappelMove
+  - first:
+      74: 7667679372636423564
+    second: Goudappel|ProductionMove
+  - first:
+      74: 4124965742687744091
+    second: Goudappel|VRMove
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Goudappel|GoudappelMove
+      takeName: Goudappel|GoudappelMove
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: GoudappelFractured(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel
+      parentName: GoudappelFractured(Clone)
+      position: {x: -0.5469569, y: 5.2150693, z: 9.3569}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 500, y: 500, z: 500}
+    - name: GoudappelFractured
+      parentName: GoudappelFractured(Clone)
+      position: {x: -0.5469569, y: 0.5836924, z: -0.00000017547333}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Goudappel_cell
+      parentName: GoudappelFractured
+      position: {x: -0.019322956, y: -0.00043262012, z: 0.0014753216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.001
+      parentName: GoudappelFractured
+      position: {x: 0.011673371, y: -0.00028193335, z: -0.00011330545}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.002
+      parentName: GoudappelFractured
+      position: {x: 0.014604485, y: -4.1099922e-11, z: -0.0022470206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.003
+      parentName: GoudappelFractured
+      position: {x: -0.02005343, y: 0.0003682998, z: 0.0019385171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.004
+      parentName: GoudappelFractured
+      position: {x: -0.014127731, y: 0.00043740077, z: 0.0019117063}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.005
+      parentName: GoudappelFractured
+      position: {x: -0.004589567, y: -0.00046679232, z: -0.0019219707}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.006
+      parentName: GoudappelFractured
+      position: {x: -0.023048462, y: -0.00011869673, z: 0.003538808}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.007
+      parentName: GoudappelFractured
+      position: {x: -0.0032923603, y: 0.0004143172, z: -0.0016054248}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.008
+      parentName: GoudappelFractured
+      position: {x: -0.0026000761, y: -0.00006646905, z: 0.001774472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.009
+      parentName: GoudappelFractured
+      position: {x: 0.00941957, y: -0.00034553453, z: -0.0012636653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.010
+      parentName: GoudappelFractured
+      position: {x: -0.019149562, y: 0.0005004197, z: 0.00015458881}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.011
+      parentName: GoudappelFractured
+      position: {x: 0.015414243, y: 0.00028266493, z: 0.0018696164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.012
+      parentName: GoudappelFractured
+      position: {x: -0.004033497, y: 0.00025984464, z: -0.0011497876}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.013
+      parentName: GoudappelFractured
+      position: {x: -0.012224548, y: 0.0000048491693, z: 0.0012510937}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.014
+      parentName: GoudappelFractured
+      position: {x: -0.0016118651, y: 0.00034305552, z: -0.0010408803}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.015
+      parentName: GoudappelFractured
+      position: {x: 0.0019557348, y: 0.0003244249, z: 0.0026150679}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.016
+      parentName: GoudappelFractured
+      position: {x: 0.004500752, y: 0.0003043549, z: 0.00123164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.017
+      parentName: GoudappelFractured
+      position: {x: -0.023007974, y: -0.000000009726855, z: -0.0015439474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.018
+      parentName: GoudappelFractured
+      position: {x: 0.013838288, y: 0.00028520986, z: 0.0020868618}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.019
+      parentName: GoudappelFractured
+      position: {x: -0.015224736, y: -0.00006460022, z: -0.00047515213}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.020
+      parentName: GoudappelFractured
+      position: {x: 0.009165231, y: 0.00041907723, z: -0.001323831}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.021
+      parentName: GoudappelFractured
+      position: {x: -0.013784376, y: -0.00038296037, z: 0.002004519}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.022
+      parentName: GoudappelFractured
+      position: {x: -0.0014550006, y: -0.00042519232, z: -0.00093749404}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.023
+      parentName: GoudappelFractured
+      position: {x: -0.0181841, y: -0.0002002149, z: -0.000037996768}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.024
+      parentName: GoudappelFractured
+      position: {x: -0.011809139, y: -0.0002882961, z: 0.00017861903}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.025
+      parentName: GoudappelFractured
+      position: {x: -0.0014793074, y: 0.000002065558, z: -0.0021384356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.026
+      parentName: GoudappelFractured
+      position: {x: -0.00910662, y: -0.000025333058, z: -0.0013983363}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.027
+      parentName: GoudappelFractured
+      position: {x: 0.0025432478, y: 0.00024801856, z: 0.0026571124}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.028
+      parentName: GoudappelFractured
+      position: {x: -0.01764533, y: 0.0003390555, z: -0.001212557}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.029
+      parentName: GoudappelFractured
+      position: {x: 0.01937108, y: -0.00045954445, z: -0.0017278668}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.030
+      parentName: GoudappelFractured
+      position: {x: 0.004104149, y: -0.00040802726, z: 0.0005795336}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.031
+      parentName: GoudappelFractured
+      position: {x: 0.013484122, y: -0.000127937, z: -0.001645967}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.032
+      parentName: GoudappelFractured
+      position: {x: -0.007146562, y: -0.00046385897, z: -0.0016421815}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.033
+      parentName: GoudappelFractured
+      position: {x: -0.020225639, y: -0.0002857463, z: 0.0023126644}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.034
+      parentName: GoudappelFractured
+      position: {x: -0.018392952, y: 0.000022745164, z: 0.002457233}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.035
+      parentName: GoudappelFractured
+      position: {x: -0.01465751, y: -0.00018007834, z: 0.0015433097}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.036
+      parentName: GoudappelFractured
+      position: {x: 0.0012415852, y: -0.00033141798, z: 0.0016378593}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.037
+      parentName: GoudappelFractured
+      position: {x: 0.016117396, y: 0.00017508306, z: -0.000028850436}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.038
+      parentName: GoudappelFractured
+      position: {x: 0.019234473, y: -0.00018442623, z: 0.00067006587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.039
+      parentName: GoudappelFractured
+      position: {x: -0.0092316475, y: -0.00028824253, z: 0.0016571169}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.040
+      parentName: GoudappelFractured
+      position: {x: -0.00240396, y: -0.00042067873, z: -0.0019561523}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.041
+      parentName: GoudappelFractured
+      position: {x: 0.019903684, y: 0.00027602873, z: 0.0047658365}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.042
+      parentName: GoudappelFractured
+      position: {x: -0.0033758509, y: -0.0004766693, z: -0.0012618372}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.043
+      parentName: GoudappelFractured
+      position: {x: 0.019213647, y: 0.00032739638, z: -0.002112448}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.044
+      parentName: GoudappelFractured
+      position: {x: 0.015582634, y: -0.00012230503, z: -0.0013201752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.045
+      parentName: GoudappelFractured
+      position: {x: -0.012621348, y: -0.00040568147, z: 0.0023019318}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.046
+      parentName: GoudappelFractured
+      position: {x: -0.019781338, y: 0.00013869844, z: -0.0016556063}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.047
+      parentName: GoudappelFractured
+      position: {x: 0.012355958, y: 0.00015687599, z: 0.0016042279}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.048
+      parentName: GoudappelFractured
+      position: {x: 0.0039380984, y: 0.00040639343, z: 0.00062879623}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.049
+      parentName: GoudappelFractured
+      position: {x: -0.0041308342, y: -0.0004671593, z: -0.0013786092}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.050
+      parentName: GoudappelFractured
+      position: {x: 0.023530375, y: -0.00019525245, z: 0.0035338849}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.051
+      parentName: GoudappelFractured
+      position: {x: -0.01766844, y: -0.000024436828, z: 0.0012735188}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.052
+      parentName: GoudappelFractured
+      position: {x: -0.018991606, y: -0.0004834411, z: -0.0014770725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.053
+      parentName: GoudappelFractured
+      position: {x: 0.0036721423, y: 0.00036551437, z: 0.0022745198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.054
+      parentName: GoudappelFractured
+      position: {x: -0.015401605, y: 0.000027086171, z: 0.0014961093}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.055
+      parentName: GoudappelFractured
+      position: {x: -0.007107018, y: 0.000104665975, z: -0.0026857862}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.056
+      parentName: GoudappelFractured
+      position: {x: 0.015389106, y: -0.00039364066, z: 0.0017169951}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.057
+      parentName: GoudappelFractured
+      position: {x: 0.01859584, y: -0.00001638871, z: 0.004327083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.058
+      parentName: GoudappelFractured
+      position: {x: 0.0017133686, y: 0.0004154946, z: 0.0016438942}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.059
+      parentName: GoudappelFractured
+      position: {x: 0.002410679, y: -0.00043834528, z: 0.002300936}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.060
+      parentName: GoudappelFractured
+      position: {x: 0.0010687881, y: 0.00008910048, z: 0.0029478066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.061
+      parentName: GoudappelFractured
+      position: {x: 0.013740813, y: -0.00042200397, z: 0.002225182}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.062
+      parentName: GoudappelFractured
+      position: {x: -0.006534662, y: 0.0003576586, z: -0.0009844592}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.063
+      parentName: GoudappelFractured
+      position: {x: 0.0033784686, y: -0.000031073658, z: -0.0019871362}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.064
+      parentName: GoudappelFractured
+      position: {x: -0.011462073, y: 0.0006517731, z: -0.00037274061}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.065
+      parentName: GoudappelFractured
+      position: {x: 0.0037201198, y: -0.0003915306, z: 0.0021034873}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.066
+      parentName: GoudappelFractured
+      position: {x: -0.020656027, y: -0.000046096335, z: -0.0020483816}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.067
+      parentName: GoudappelFractured
+      position: {x: -0.0034617458, y: -0.00034400646, z: -0.0021322789}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.068
+      parentName: GoudappelFractured
+      position: {x: -0.008036432, y: 0.00014942653, z: 0.0017454934}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.069
+      parentName: GoudappelFractured
+      position: {x: 0.019813202, y: -0.00032377674, z: 0.004924492}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.070
+      parentName: GoudappelFractured
+      position: {x: -0.0044278894, y: 0.00040051792, z: -0.0020332234}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.071
+      parentName: GoudappelFractured
+      position: {x: -0.0022851503, y: 0.0004114592, z: 0.000042730568}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.072
+      parentName: GoudappelFractured
+      position: {x: -0.0029844039, y: -0.00023906394, z: -0.000049349663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.073
+      parentName: GoudappelFractured
+      position: {x: -0.0039298544, y: -0.000045971017, z: 0.0016202896}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.074
+      parentName: GoudappelFractured
+      position: {x: -0.007636356, y: 0.00030383753, z: -0.0016143059}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.075
+      parentName: GoudappelFractured
+      position: {x: -0.000803377, y: 0.00012355312, z: -0.0013094791}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.076
+      parentName: GoudappelFractured
+      position: {x: 0.004513305, y: 0.000041493357, z: -0.0006041223}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.077
+      parentName: GoudappelFractured
+      position: {x: 0.019478917, y: 0.00024754618, z: -0.00092093885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.078
+      parentName: GoudappelFractured
+      position: {x: 0.008007523, y: -0.00018857907, z: -0.0019223696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.079
+      parentName: GoudappelFractured
+      position: {x: -0.013211384, y: 0.00007161516, z: -0.0017887639}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.080
+      parentName: GoudappelFractured
+      position: {x: -0.0019340204, y: -0.00037730864, z: 0.00015656411}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.081
+      parentName: GoudappelFractured
+      position: {x: 0.007305964, y: 0.0003789234, z: -0.0012989554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.082
+      parentName: GoudappelFractured
+      position: {x: -0.004229746, y: -0.00032612143, z: -0.0023041344}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.083
+      parentName: GoudappelFractured
+      position: {x: 0.0031669582, y: 0.000028016375, z: -0.0010885096}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.084
+      parentName: GoudappelFractured
+      position: {x: -0.01900682, y: 0.00030884167, z: 0.002120328}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.085
+      parentName: GoudappelFractured
+      position: {x: -0.0025372517, y: 0.00034030445, z: -0.001931884}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.086
+      parentName: GoudappelFractured
+      position: {x: 0.0033727004, y: 0.0003566355, z: 0.0016842597}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.087
+      parentName: GoudappelFractured
+      position: {x: 0.007084922, y: -0.00033872476, z: -0.0014153396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.088
+      parentName: GoudappelFractured
+      position: {x: 0.021976031, y: 0.000041408122, z: 0.004656666}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.089
+      parentName: GoudappelFractured
+      position: {x: -0.004202615, y: -0.00041906405, z: -0.00023970364}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.090
+      parentName: GoudappelFractured
+      position: {x: 0.012523601, y: -0.0004428665, z: 0.0005916828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.091
+      parentName: GoudappelFractured
+      position: {x: -0.01991191, y: 0.0003133418, z: 0.0000534147}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.092
+      parentName: GoudappelFractured
+      position: {x: -0.020623479, y: 0.00007154892, z: 0.00077245414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.093
+      parentName: GoudappelFractured
+      position: {x: 0.012316548, y: 0.00027861836, z: -0.00062737224}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.094
+      parentName: GoudappelFractured
+      position: {x: -0.01709972, y: -0.00014993809, z: 0.00017258286}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.095
+      parentName: GoudappelFractured
+      position: {x: 0.021669282, y: -0.00007119481, z: -0.0016305884}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.096
+      parentName: GoudappelFractured
+      position: {x: -0.019111909, y: -0.0004568326, z: -0.0021933978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.097
+      parentName: GoudappelFractured
+      position: {x: 0.0018944385, y: -0.00045931313, z: 0.0023739445}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.098
+      parentName: GoudappelFractured
+      position: {x: -0.019406833, y: 0.00025153186, z: -0.0023093896}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.099
+      parentName: GoudappelFractured
+      position: {x: 0.023906989, y: 0.00009542044, z: 0.00059511245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.100
+      parentName: GoudappelFractured
+      position: {x: 0.009735189, y: -0.000029637855, z: 0.001213125}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.101
+      parentName: GoudappelFractured
+      position: {x: -0.019523816, y: 0.00033108547, z: 0.0004725778}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.102
+      parentName: GoudappelFractured
+      position: {x: -0.018557008, y: 0.00039002244, z: -0.0013128609}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.103
+      parentName: GoudappelFractured
+      position: {x: 0.0012563759, y: -0.00003647555, z: 0.0049725655}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.104
+      parentName: GoudappelFractured
+      position: {x: 0.0065729893, y: -0.00022148195, z: 0.00195773}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.105
+      parentName: GoudappelFractured
+      position: {x: -0.021227278, y: -0.000000009726855, z: -0.0016396719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.106
+      parentName: GoudappelFractured
+      position: {x: -0.01238359, y: -0.0007042652, z: 0.00027890623}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.107
+      parentName: GoudappelFractured
+      position: {x: 0.00036757826, y: -0.0006355026, z: -0.000020993948}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.108
+      parentName: GoudappelFractured
+      position: {x: -0.009853496, y: -0.00044067283, z: 0.00019868433}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.109
+      parentName: GoudappelFractured
+      position: {x: -0.015364822, y: 0.0006141133, z: -0.0015077608}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.110
+      parentName: GoudappelFractured
+      position: {x: -0.02261785, y: -0.0005106648, z: 0.0026794875}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.111
+      parentName: GoudappelFractured
+      position: {x: 0.018265802, y: -0.000000009801361, z: 0.00064817484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.112
+      parentName: GoudappelFractured
+      position: {x: 0.022916296, y: -0.00062152377, z: -0.00067688344}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.113
+      parentName: GoudappelFractured
+      position: {x: -0.011436531, y: -0.0006387751, z: 0.0022308463}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.114
+      parentName: GoudappelFractured
+      position: {x: -0.019630503, y: 0.0003031788, z: 0.00012654661}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.115
+      parentName: GoudappelFractured
+      position: {x: 0.0098202685, y: 0.00010454971, z: 0.0021445525}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.116
+      parentName: GoudappelFractured
+      position: {x: -0.019732254, y: -0.00038411256, z: 0.00006554782}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.117
+      parentName: GoudappelFractured
+      position: {x: -0.017089143, y: -0.0006782935, z: 0.0013812095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.118
+      parentName: GoudappelFractured
+      position: {x: -0.009733594, y: 0.00023904782, z: 0.0002661866}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.119
+      parentName: GoudappelFractured
+      position: {x: 0.0062231, y: -0.00066826865, z: 0.0024302602}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.120
+      parentName: GoudappelFractured
+      position: {x: -0.005803307, y: 0.00046601112, z: -0.0023886305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.121
+      parentName: GoudappelFractured
+      position: {x: 0.00034126698, y: 0.00042266215, z: 0.00047881244}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.122
+      parentName: GoudappelFractured
+      position: {x: -0.0013226229, y: 0.00043158582, z: 0.001904999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.123
+      parentName: GoudappelFractured
+      position: {x: -0.0060693477, y: 0.00007282834, z: 0.0013914126}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.124
+      parentName: GoudappelFractured
+      position: {x: 0.00085659535, y: -0.0000041000208, z: -0.0006894201}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.125
+      parentName: GoudappelFractured
+      position: {x: 0.0070538633, y: -0.00031663186, z: -0.0022859722}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.126
+      parentName: GoudappelFractured
+      position: {x: -0.0011515545, y: -0.00037855073, z: 0.0017362428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.127
+      parentName: GoudappelFractured
+      position: {x: -0.0059256745, y: -0.00043994022, z: -0.0036424974}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.128
+      parentName: GoudappelFractured
+      position: {x: -0.018889742, y: 0.00042091418, z: 0.000538758}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.129
+      parentName: GoudappelFractured
+      position: {x: -0.005832789, y: -0.00019825085, z: -0.0021496683}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.130
+      parentName: GoudappelFractured
+      position: {x: -0.0048278463, y: -0.0003495155, z: -0.0017212486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.131
+      parentName: GoudappelFractured
+      position: {x: -0.02075239, y: 0.00003282431, z: -0.0013522237}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goudappel_cell.132
+      parentName: GoudappelFractured
+      position: {x: -0.023012657, y: -0.00005162124, z: 0.0010354602}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

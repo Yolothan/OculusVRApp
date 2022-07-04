@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc7953aac887be49a21bf8e103bf110, type: 3}
+  m_Name: AITrafficPoolVehiclePackCompleet
+  m_EditorClassIdentifier: 
+  trafficPrefabs:
+  - {fileID: 3077954724410916867, guid: a90554202b1f66747bcb166659241509, type: 3}
+  - {fileID: 8504236193846800240, guid: c888a803c41c1684d9344db4f041652d, type: 3}
+  - {fileID: 3042724099636600802, guid: 13ed6770f9af5d843a9d765f3a66d8e3, type: 3}
+  - {fileID: 5118646763871150294, guid: 84eb924fda7ecef428fb12064f9652d8, type: 3}
+  - {fileID: 5963182014077944596, guid: fddb075761211ef449d2413875ae8eaf, type: 3}
+  - {fileID: 3187415512611451370, guid: ecaf2c2cd8cd4c14e985e0c6a2ddfc7c, type: 3}
+  - {fileID: 8995031696602302390, guid: 64b338273fbcbf644a80be62daf818b9, type: 3}
+  - {fileID: 3214727715220592277, guid: f78b8855830156041bd82a214fcd3b53, type: 3}
+  - {fileID: 2859557612215831685, guid: 04d954232c7f35348b1445f3270dabd3, type: 3}
+  - {fileID: 936306182457318344, guid: 571d376089b0631498b6bc6b717d9180, type: 3}
+  - {fileID: 6833838764612006477, guid: 38888be6d2acf2045b087d1e141a76ef, type: 3}
+  - {fileID: 5844366303384681093, guid: e6d6c2cedb87b0340874629b77642ed6, type: 3}
+  - {fileID: 3855298450338427581, guid: 06dc4bb92e116194d8b55ade743d34e4, type: 3}
+  - {fileID: 8037415303339771502, guid: b6e1f534522237b40bfeceaf71aa4ce9, type: 3}
+  - {fileID: 7337385652505237069, guid: 82b0e797ce65267469750953cf794201, type: 3}
+  - {fileID: 1907874370455830153, guid: 99d21efedf13b8b4b9dbb071540b2a20, type: 3}
+  - {fileID: 7365131438475305816, guid: 47f89629591a9214c8fdfa0d8e86821d, type: 3}
+  - {fileID: 8101474666621916469, guid: f62cafa01bef9ed42998cee45d11799e, type: 3}
+  - {fileID: 7073180553311088240, guid: ab8fff10940bb2048af9b47737418874, type: 3}
+  - {fileID: 1585100407991533914, guid: 7b800b59065f65244880d6f6e258638d, type: 3}
+  density: 50
+  spawnRate: 5
+  minSpawnZone: 20
+  cullHeadLight: 40
+  actizeZone: 70
+  spawnZone: 600
+  hideSpawnPointsInEditMode: 0
+  showGizmos: 0
+  minSpawnZoneColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 0.45490196}
+  cullHeadLightZone: {r: 1, g: 0, b: 0, a: 0.39215687}
+  activeZoneColor: {r: 0, g: 0.044787005, b: 0.6117647, a: 0.26666668}
+  spawnZoneColor: {r: 0.88086605, g: 0, b: 1, a: 0.24313726}
+  debugProcessTime: 0

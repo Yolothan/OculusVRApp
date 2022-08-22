@@ -1,0 +1,18 @@
+The Ethan character used in this asset was not created by me, but by unity technology, It was only used as demo in the project, therefore you are required to use your licensed 3d humanoid models.
+
+
+
+
+
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+ A. [Ethan.FBX] [non-commercial purpose] [Unity technology]
+
+
+
+All files in the folder 'RollerBall' and 'Animation' were not created by me so are governed by the lincense indicated below
+
+[non-commercial purpose] [Unity technology]
+
+
+Thanks for choosing IPS.....
+ 

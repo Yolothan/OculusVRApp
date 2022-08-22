@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shootable
+  - Painting
+  - SpawnPosition
+  - Trigger
+  - TriggerScene
+  - Waypoint
+  - SpawnPoints
+  - TriggerFront
+  - Objects
+  - CarPrefab
+  - TriggerBike
+  - BikePrefab
+  - TriggerBike1
+  - BikePrefab1
+  - BikePrefab2
+  - TriggerBike2
+  - Draw
+  - RenderCamera
+  - Leaves
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Persistent
+  - Water
+  - UI
+  - Interaction
+  - 
+  - Lighting
+  - Ground
+  - Postprocessing
+  - Floor
+  - Fraction
+  - IgnoreByCamera
+  - Player
+  - AICars
+  - Minimap
+  - CurlyUI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Fire
+    uniqueID: 3375158641
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
